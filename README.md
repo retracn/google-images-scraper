@@ -100,7 +100,7 @@ Local config for Claude Desktop / Cursor — [`mcp/claude_desktop_config.json`](
 ## FAQ
 
 **Is there a Google Images API?**
-Google's Custom Search JSON API can search images but caps at 100 queries a day free and $5 per 1,000 after, with limited filters. Google Images Scraper on Apify returns the full results page as data, pay per image.
+Google's Custom Search JSON API is closed to new customers and retires on 1 January 2027, and it returned only 10 images per request. Google Images Scraper on Apify returns up to 100 images per search as data, pay per image.
 
 **Can I filter for Creative Commons images?**
 Yes: set Usage rights to Creative Commons. Always check the license on the source page.
