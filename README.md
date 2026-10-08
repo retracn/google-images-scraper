@@ -11,6 +11,7 @@ Google Images Scraper is an Apify Actor that returns Google Images results for a
 - One row per image: full-size URL, width, height, file size, thumbnail, title, page URL and site.
 - Filters: size, color, type (photo, clip art, line drawing, face, animated), time and usage rights.
 - 100 images per search in seconds, plain HTTP.
+- Monitoring: with Only new results on, a scheduled run returns only images earlier runs didn't, e.g. to spot your products or logo on new sites.
 - Price: $0.25 per 1,000 images; the free $5 monthly credit covers 20,000 images.
 
 ## Example input
